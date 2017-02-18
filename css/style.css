@@ -1,0 +1,84 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+li {
+  display: inline; }
+  li i {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 20px;
+    background-color: #777777; }
+    li i.facebook {
+      background: #365396; }
+      li i.facebook:hover {
+        background: #7c95d0; }
+    li i.twitter {
+      background: #00a8f0; }
+      li i.twitter:hover {
+        background: #70d4ff; }
+    li i.linkedin {
+      background: #006eb3; }
+      li i.linkedin:hover {
+        background: #33b1ff; }
+    li i.googleplus {
+      background: #e0462e; }
+      li i.googleplus:hover {
+        background: #f0a89d; }
+    li i.pinterest {
+      background: #cc1919; }
+      li i.pinterest:hover {
+        background: #ee7777; }
+    li i:hover {
+      transform: scale(1.5); }
+
+h2 {
+  font-family: tahoma;
+  padding: 25px 0px; }
+
+/*# sourceMappingURL=style.css.map */

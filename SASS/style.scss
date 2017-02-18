@@ -1,0 +1,76 @@
+@import "reset";
+@import "vars-social-colors";
+
+
+
+li {
+	display: inline;
+		
+	i {
+		width: 15px;
+ 		height: 15px;
+ 		border-radius: 50%;
+ 		color: #ffffff;
+ 		padding: 20px;
+ 		background-color: #777777;
+ 		&.facebook {
+		background: $facebook_color;
+		&:hover {
+			background: lighten( $facebook_color, 25% )
+			}
+		}
+
+			
+
+		&.twitter {
+		background: $twitter_color;
+		&:hover {
+			background: lighten( $twitter_color, 25% )
+			}
+		}
+			
+		
+		&.linkedin {
+		background: $linkedin_color;
+		&:hover {
+			background: lighten( $linkedin_color, 25% )
+			}
+		}
+
+			
+		
+		&.googleplus {
+		background: $google-plus_color;
+		&:hover {
+			background: lighten( $google-plus_color, 25% )
+			}
+		}
+
+			
+		
+		&.pinterest {
+		background: $pinterest_color;
+		&:hover {
+			background: lighten( $pinterest_color, 25% )
+			}
+		}
+
+		&:hover { 
+		transform: scale(1.5)	
+}
+
+ 	}
+
+
+}
+
+
+h2 {
+	font-family: tahoma;
+	padding: 25px 0px;
+}
+
+
+
+
+
